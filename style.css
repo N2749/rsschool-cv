@@ -1,0 +1,9 @@
+hr {
+    width: 85%;
+    margin: 0px auto;
+    border: 1px solid gray;
+}
+img {
+    float: right;
+    margin: 5px 5px;
+}
