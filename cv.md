@@ -1,15 +1,15 @@
 # Nurbolat Davletyarov
 ---
-### Contact information
+## Contact information
 ---
-### About myself
+## About myself
 ---
-### Skills
+## Skills
 ---
-### Projects
+## Projects
 ---
-### Code example
+## Code example
 ---
-### Education
+## Education
 ---
-### Languages
+## Languages
