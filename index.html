@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CV</title>
+  </head>
+  <body>
+    <h1>Nurbolat Davletyarov</h1>
+    <img src="./img/photo128.png" alt="profile photo" />
+
+    <hr />
+
+    <h2>Contact information</h2>
+    <ul>
+      <li>email: nurbolat.dav@gmail.com</li>
+      <li>telegram: @n2749</li>
+      <li>rs school discord: Nurbolat (@n2749)</li>
+    </ul>
+
+    <hr />
+
+    <h2>About myself</h2>
+    <p>
+      I'm a second year student at the IITU university. My speciality is
+      information systems. Here I study the masters of project management along
+      with the Java EE stack.
+    </p>
+
+    <p>
+      I am passionate about games of any kind, except shooters (always lose),
+      like tetris, chess, and board games.
+    </p>
+
+    <p>
+      Now learning web development, because it seemed intresting to me. I have
+      had experiense in several educational and pet projects.
+    </p>
+
+    <hr />
+
+    <h2>Skills</h2>
+    <ul>
+      <li>Basics HTML5, CSS3, JavaScript, VueJS</li>
+      <li>Git, GitHub</li>
+      <li>VSCode, Intellij IDEA, WebStorm,</li>
+    </ul>
+
+    <hr />
+
+    <h2>Projects</h2>
+    <p>
+      <a href="https://github.com/N2749/webFinalProject"
+        >CRUD application using Vanila JS + Sweetalert 2</a
+      >
+      Was responsible for JS Part. Implemented validation, storing in LS, JS
+      animation
+    </p>
+    <p>
+      <a href="https://github.com/N2749/vue-simple-test-app"
+        >Simple Vue app for final test preparation, written without backend</a
+      >
+      >Contains two pages. One for creating questions, and one to pass them.
+    </p>
+    <p>
+      <a href="https://github.com/N2749/fis-final-2022"
+        >Fullstack application Java + Vue</a
+      >
+      >Was responsible for backend, and frontend except layout and design.
+    </p>
+
+    <hr />
+
+    <h2>Code example</h2>
+    <p>
+      <i>
+        Code below zoom in image when it is being focused and zoom out of it
+        otherwise.
+      </i>
+    </p>
+    <code>
+      <pre>
+const bigImg = document.getElementById("bigImage");
+const originSrc = bigImg.getAttribute("src");
+const box = document.getElementById("container");
+            
+box.onmouseover = (event) => {
+    let img = event.target.closest("img");
+    if (!img) return;
+    if (!box.contains(img)) return;
+    let newSource = event.target.getAttribute("src");
+    bigImg.setAttribute("src", newSource);
+};
+box.onmouseout = (event) => {
+    bigImg.setAttribute("src", originSrc);
+};
+        </pre
+      >
+    </code>
+
+    <hr />
+
+    <h2>Education</h2>
+    <ol>
+      <li>№10 school, Almaty 2020.</li>
+      <li>IITU 2020-2024.</li>
+      <ul>
+        <li>
+          <a href="https://coursera.org/share/4e0434da15c5767a314414d220bb7dfb"
+            >Introduction to Web Development(courcera)</a
+          >
+        </li>
+        <li>
+          <a href="https://coursera.org/share/7902fd00559bc9fdae2416ddbc052bff"
+            >Linux and git(courcera)</a
+          >
+        </li>
+      </ul>
+    </ol>
+
+    <hr />
+
+    <h2>Languages</h2>
+    <ul>
+      <li>russian: fluent</li>
+      <li>english: upper intermediate</li>
+    </ul>
+  </body>
+</html>
