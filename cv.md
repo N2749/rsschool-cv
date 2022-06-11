@@ -1,10 +1,12 @@
 # Nurbolat Davletyarov
 ![profile photo](./img/photo128.png "me developing")
+
 ---
 ## Contact information
 + email: nurbolat.dav@gmail.com
 + telegram: @n2749
 + rs school discord: Nurbolat (@n2749)
+
 ---
 ## About myself
 I'm a second year student at the IITU university. My speciality is information systems. Here I study the masters of project management along with the Java EE stack.
@@ -18,6 +20,7 @@ Now learning web development, because it seemed intresting to me. I have had exp
 + Basics HTML5, CSS3, JavaScript, VueJS
 + Git, GitHub
 + VSCode, Intellij IDEA, WebStorm, 
+
 ---
 ## Projects
 + [CRUD application using Vanila JS + Sweetalert 2](https://github.com/N2749/webFinalProject)
@@ -52,6 +55,7 @@ box.onmouseout = (event) => {
 2. IITU 2020-2024.
     + [Introduction to Web Development (courcera)](https://coursera.org/share/4e0434da15c5767a314414d220bb7dfb)
     + [Linux and git (courcera)](https://coursera.org/share/7902fd00559bc9fdae2416ddbc052bff)
+    
 ---
 ## Languages
 + russian: fluent
