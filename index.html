@@ -8,101 +8,105 @@
     <title>HTML CV</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#contact">Contact Information</a></li>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#skills">Core Skills</a></li>
-          <li><a href="#projects">Done Projects</a></li>
-          <li><a href="#education">Education</a></li>
-        </ul>
-      </nav>
-    </header>
-    <hr />
-    <main>
-      <section id="profile">
-        <h1>Nurbolat Davletyarov</h1>
-        <img src="./img/photo128.png" alt="profile photo" />
-      </section>
-
+    <div class="wrapper">
+      <header>
+        <nav>
+          <ul class="list-link">
+            <li><a href="#contact">Contact Information</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Core Skills</a></li>
+            <li><a href="#projects">Done Projects</a></li>
+            <li><a href="#education">Education</a></li>
+          </ul>
+        </nav>
+      </header>
       <hr />
+      <main>
+        <section id="profile">
+          <h1>Nurbolat Davletyarov</h1>
+          <img src="./img/photo128.png" alt="profile photo" />
+        </section>
 
-      <section id="contact">
-        <h2>Contact information</h2>
-        <ul>
-          <li>email: nurbolat.dav@gmail.com</li>
-          <li>telegram: @n2749</li>
-          <li>rs school discord: Nurbolat (@n2749)</li>
-        </ul>
-      </section>
+        <hr />
 
-      <hr />
+        <section id="contact">
+          <h2>Contact information</h2>
+          <ul>
+            <li>email: nurbolat.dav@gmail.com</li>
+            <li>telegram: @n2749</li>
+            <li>rs school discord: Nurbolat (@n2749)</li>
+          </ul>
+        </section>
 
-      <section id="about">
-        <h2>About myself</h2>
-        <p>
-          I'm a second year student at the IITU university. My speciality is
-          information systems. Here I study the masters of project management
-          along with the Java EE stack.
-        </p>
+        <hr />
 
-        <p>
-          I am passionate about games of any kind, except shooters (always
-          lose), like tetris, chess, and board games.
-        </p>
+        <section id="about">
+          <h2>About myself</h2>
+          <p>
+            I'm a second year student at the IITU university. My speciality is
+            information systems. Here I study the masters of project management
+            along with the Java EE stack.
+          </p>
 
-        <p>
-          Now learning web development, because it seemed intresting to me. I
-          have had experiense in several educational and pet projects.
-        </p>
-      </section>
+          <p>
+            I am passionate about games of any kind, except shooters (always
+            lose), like tetris, chess, and board games.
+          </p>
 
-      <hr />
+          <p>
+            Now learning web development, because it seemed intresting to me. I
+            have had experiense in several educational and pet projects.
+          </p>
+        </section>
 
-      <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>Basics HTML5, CSS3, JavaScript, VueJS</li>
-          <li>Git, GitHub</li>
-          <li>VSCode, Intellij IDEA, WebStorm,</li>
-        </ul>
-      </section>
+        <hr />
 
-      <hr />
+        <section id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>Basics HTML5, CSS3, JavaScript, VueJS</li>
+            <li>Git, GitHub</li>
+            <li>VSCode, Intellij IDEA, WebStorm,</li>
+          </ul>
+        </section>
 
-      <section id="projects">
-        <h2>Projects</h2>
-        <p>
-          <a href="https://github.com/N2749/webFinalProject"
-            >CRUD application using Vanila JS + Sweetalert 2</a
-          >Was responsible for JS Part. Implemented validation, storing in LS,
-          JS animation
-        </p>
-        <p>
-          <a href="https://github.com/N2749/vue-simple-test-app"
-            >Simple Vue app for final test preparation, written without
-            backend</a
-          >Contains two pages. One for creating questions, and one to pass them.
-        </p>
-        <p>
-          <a href="https://github.com/N2749/fis-final-2022"
-            >Fullstack application Java + Vue</a
-          >Was responsible for backend, and frontend except layout and design.
-        </p>
-      </section>
+        <hr />
 
-      <hr />
+        <section id="projects">
+          <h2>Projects</h2>
+          <ul>
+            <li>
+              <a href="https://github.com/N2749/webFinalProject"
+                >CRUD application using Vanila JS + Sweetalert 2</a
+              >Was responsible for JS Part. Implemented validation, storing in
+              LS, JS animation
+            </li>
+            <li>
+              <a href="https://github.com/N2749/vue-simple-test-app"
+                >Simple Vue app for final test preparation, written without
+                backend</a
+              >Contains two pages. One for creating questions, and one to pass
+              them.
+            </li>
+            <li>
+              <a href="https://github.com/N2749/fis-final-2022"
+                >Fullstack application Java + Vue</a
+              >Was responsible for backend, and frontend except layout and design.
+            </li>
+          </ul>
+        </section>
 
-      <section id="codeExample">
-        <h2>Code example</h2>
-        <p>
-          <i>
-            Code below zoom in image when it is being focused and zoom out of it
-            otherwise.
-          </i>
-        </p>
-        <pre>
+        <hr />
+
+        <section id="codeExample">
+          <h2>Code example</h2>
+          <p>
+            <i>
+              Code below zoom in image when it is being focused and zoom out of
+              it otherwise.
+            </i>
+          </p>
+          <pre>
           <code>
 const bigImg = document.getElementById("bigImage");
 const originSrc = bigImg.getAttribute("src");
@@ -119,52 +123,39 @@ box.onmouseout = (event) =&gt; {
   bigImg.setAttribute("src", originSrc);
 };
           </code>
-        </pre>
-      </section>
+          </pre>
+        </section>
 
+        <hr />
+
+        <section id="education">
+          <h2>Education</h2>
+          <ol>
+            <li>№10 school, Almaty (ended 2020).</li>
+            <li>IITU Information System Bachelor (will end 2024).</li>
+            <li><a href="https://coursera.org/share/4e0434da15c5767a314414d220bb7dfb">Introduction to Web Development (coursera)</a></li>
+            <li><a href="https://coursera.org/share/7902fd00559bc9fdae2416ddbc052bff">Linux and git (coursera)</a></li>
+          </ol>
+        </section>
+
+        <hr />
+
+        <section id="languages">
+          <h2>Languages</h2>
+          <ul>
+            <li>russian: fluent</li>
+            <li>english: upper intermediate</li>
+          </ul>
+        </section>
+      </main>
       <hr />
-
-      <section id="education">
-        <h2>Education</h2>
-        <ol>
-          <li>№10 school, Almaty 2020.</li>
-          <li>IITU 2020-2024.</li>
-          <li>
-            <ul>
-              <li>
-                <a
-                  href="https://coursera.org/share/4e0434da15c5767a314414d220bb7dfb"
-                  >Introduction to Web Development(courcera)</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://coursera.org/share/7902fd00559bc9fdae2416ddbc052bff"
-                  >Linux and git(courcera)</a
-                >
-              </li>
-            </ul>
-          </li>
-        </ol>
-      </section>
-
-      <hr />
-
-      <section id="languages">
-        <h2>Languages</h2>
-        <ul>
-          <li>russian: fluent</li>
-          <li>english: upper intermediate</li>
+      <footer >
+        <ul class="list-link">
+          <li><a href="https://github.com/N2749">GitHub Page</a></li>
+          <li><span class="rs-logo"></span></li>
+          <li><a href="https://rs.school/js/">Cource Page</a></li>
         </ul>
-      </section>
-    </main>
-    <hr />
-    <footer>
-      <ul>
-        <li><a href="https://github.com/N2749">GitHub Page</a></li>
-        <li><img src="./img/rs-logo.svg" alt="rs-logo" /></li>
-        <li><a href="https://rs.school/js/">cource page</a></li>
-      </ul>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>

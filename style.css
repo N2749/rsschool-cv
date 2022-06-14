@@ -1,9 +1,55 @@
-hr {
-    width: 85%;
-    margin: 0px auto;
-    border: 1px solid gray;
+body {
+  padding: 15px;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
 }
-img {
-    float: right;
-    margin: 5px 5px;
+.wrapper {
+  max-width: 1200px;
+}
+section,
+header,
+footer {
+  background-color: #fff;
+}
+section {
+  border-radius: 2px;
+  padding: 15px;
+  margin: 10px 0px;
+}
+main > hr {
+  width: 85%;
+  margin: 25px auto;
+  border: 1px solid gray;
+}
+#profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.list-link {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+ul {
+  padding: 0px;
+}
+ul > li {
+  list-style: none;
+}
+li > a {
+    text-decoration: none;
+    color: blue;
+}
+li > a:hover {
+    color: lightblue;
+}
+
+.rs-logo {
+    background-image: url(./img/rs-logo.svg);
+    width: 80px;
+    height: 30px;
+    display: inline-block;
 }
